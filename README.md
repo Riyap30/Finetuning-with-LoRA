@@ -6,27 +6,12 @@ Team Members:
 * Satya Kamala Immidisetty
 * Mahima Sachdeva
 
-[TODO-CHANGE]The final model is in this notebook: [Modified Resnet-34](https://github.com/mahi397/Employing-ResNet-Architecture-for-CIFAR-10-Classification/blob/main/notebooks/rn_34_mod.ipynb)
+The final model is in this notebook: [Final Model](https://github.com/Riyap30/Finetuning-with-LoRA/blob/main/notebooks/Final_model.ipynb)
 
-[TODO-CHANGE]The model has been trained on the AGNews dataset and tested on the same dataset. The training, validation and test accuracy calculated in the code are all on the **original** CIFAR-10 dataset. <br/>
-Further, its predictions have been generated for the unlabeled dataset provided for this project, which are located here: [Output CSV file](https://github.com/mahi397/Employing-ResNet-Architecture-for-CIFAR-10-Classification/blob/main/results/rn_34_output.csv)
-
-[TODO-CHANGE]The final model checkpoints have been saved here: [Final checkpoint](https://github.com/mahi397/Employing-ResNet-Architecture-for-CIFAR-10-Classification/blob/main/models/resnet_34_best.pth)
-
-[TODO-CHANGE]Here is our model at a glance:
-
-* Number of trainable parameters: 4,525,066
-* Number of epochs trained for: 100
-* Loss: CrossEntropyLoss
-* Optimizer: Stochastic Gradient Descent
-* Learning Rate: 0.1
-* Momentum: 0.9
-* Weight Decay: 5e-4
-* Learning Rate Schedule: Cosine Annealing
-* Dropout Probability: 0.2
+The model has been trained on the AGNews dataset and tested on the same dataset. <br/>
+Further, its predictions have been generated for the unlabeled dataset provided for this project, which are located here: [Output CSV file](https://github.com/Riyap30/Finetuning-with-LoRA/blob/main/results/inference_final.csv)
 
 ==> Performance:
-* Training Accuracy: 99.845%
-* Validation Accuracy: 94.13%
+* Validation Accuracy: 94.15%
 
-The Jupyter Notebooks for our models can be found inside `notebooks/`.
+The Jupyter Notebooks for all our models can be found inside `notebooks/`.
